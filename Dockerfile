@@ -3,4 +3,4 @@
 
 FROM debian:wheezy
 
-RUN apt-get install -y git
+RUN apt-get install -y git-core
