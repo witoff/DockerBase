@@ -3,4 +3,6 @@
 
 FROM debian:wheezy
 
-RUN apt-get install -y git-core
+deb http://http.debian.net/debian wheezy-backports main
+
+RUN apt-get install -y git
