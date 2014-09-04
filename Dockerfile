@@ -1,6 +1,10 @@
 # Default Base Dockerfile for Development
 # R. Witoff
 
-FROM ubuntu:14.04
+FROM debian:jessie
 
-RUN apt-get install -y git
+RUN apt-get update && apt-get install -y \
+  git \
+  python \
+  curl \
+  ruby
