@@ -1,8 +1,6 @@
 # Default Base Dockerfile for Development
 # R. Witoff
 
-FROM debian:wheezy
-
-deb http://http.debian.net/debian wheezy-backports main
+FROM ubuntu:14.04
 
 RUN apt-get install -y git
